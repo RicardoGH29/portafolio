@@ -2,10 +2,14 @@ import "./globals.css";
 import ThemeRegistry from "@/utils/MIU/ThemeRegistry";
 import React from "react";
 
+// export const metadata = {
+//   title: "Ricardo Gonzalez Hernandez",
+//   description: "Desarrollador Web Full Stack",
+// };
 export const metadata = {
-  title: "Ricardo Gonzalez Hernandez",
-  description: "Desarrollador Web Full Stack",
-};
+    title: "test",
+    description: "test",
+}
 
 export default function RootLayout({
   children,
