@@ -5,7 +5,7 @@ pipeline {
         stage('Clonar Repositorio') {
             steps {
                 // Clonar la rama del repositorio
-                git branch: 'master', url: 'https://github.com/RicardoGH29/portafolio.git'
+                git credentialsId: '2a2dcbb7-4697-49e2-b0cf-378f2f2d3145', branch: 'master', url: 'https://github.com/RicardoGH29/portafolio.git'
             }
         }
 
