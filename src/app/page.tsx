@@ -5,6 +5,7 @@ import React from "react";
 import ProjectCards from "@/components/home/ProjectCards";
 
 export default function Portfolio() {
+
     return (
         <div className="min-h-screen bg-background text-foreground">
             {/* Hero Section */}
@@ -12,19 +13,27 @@ export default function Portfolio() {
                 <h1 className="text-4xl font-bold mb-4">Ricardo Gonzalez Hernandez</h1>
                 <p className="text-xl mb-8">Desarrollador Web Full Stack</p>
                 <div className="flex justify-center space-x-4">
-                    <IconButton size="small">
-                        <Github className="h-4 w-4" />
-                    </IconButton>
-                    <IconButton size="small">
-                        <Linkedin className="h-4 w-4" />
-                    </IconButton>
-                    <IconButton size="small">
-                        <Mail className="h-4 w-4" />
-                    </IconButton>
-                    <IconButton size="small">
-                        <FaWhatsapp className="h-4 w-4" />
-                    </IconButton>
-                    </div>
+                    <a href="https://github.com/RicardoGH29" target="_blank" rel="noopener noreferrer">
+                        <IconButton size="small">
+                            <Github className="h-4 w-4"/>
+                        </IconButton>
+                    </a>
+                    <a href="https://linkedin.com/in/ricardo-gonzalez-hernandez-118473234" target="_blank" rel="noopener noreferrer">
+                        <IconButton size="small">
+                            <Linkedin className="h-4 w-4"/>
+                        </IconButton>
+                    </a>
+                    <a href="mailto:ricardogzahdez@gmail.com">
+                        <IconButton size="small">
+                            <Mail className="h-4 w-4"/>
+                        </IconButton>
+                    </a>
+                    <a href="https://wa.me/522383948188" target="_blank" rel="noopener noreferrer">
+                        <IconButton size="small">
+                            <FaWhatsapp className="h-4 w-4"/>
+                        </IconButton>
+                    </a>
+                </div>
             </section>
 
             {/* Projects Section */}
