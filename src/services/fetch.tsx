@@ -1,5 +1,5 @@
-
-const urlBase = 'http://localhost:3000';
+const prod = true
+const urlBase = prod ? 'https://ricardo-gza-hdez.ghtechinnovations.online' : 'http://localhost:3000'
 
 async function fetchDataPostAsync(url: string, data: object) {
   return fetch(`${urlBase}${url}`, {
