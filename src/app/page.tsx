@@ -1,5 +1,5 @@
 import { Github, Linkedin, Mail } from "lucide-react";
-import { Button, IconButton } from "@mui/material";
+import { IconButton } from "@mui/material";
 import { FaWhatsapp } from "react-icons/fa";
 import React from "react";
 import ProjectCards from "@/components/home/ProjectCards";
