@@ -1,5 +1,4 @@
 import "./globals.css";
-import ThemeRegistry from "@/utils/MIU/ThemeRegistry";
 import React from "react";
 
 // export const metadata = {
@@ -19,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body>
-        <ThemeRegistry>{children}</ThemeRegistry>
+      {children}
       </body>
     </html>
   );
