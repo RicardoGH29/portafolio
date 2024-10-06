@@ -1,4 +1,5 @@
 import "./globals.css";
+import "nextjs-toast-notify/dist/nextjs-toast-notify.css";
 import React from "react";
 
 // export const metadata = {
