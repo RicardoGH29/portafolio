@@ -6,7 +6,7 @@ import React from "react";
 //   description: "Desarrollador Web Full Stack",
 // };
 export const metadata = {
-    title: "test",
+    title: "test2",
     description: "test",
 }
 
