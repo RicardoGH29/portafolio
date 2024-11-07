@@ -29,7 +29,7 @@ COPY --from=builder /app/.next ./.next
 ## (Opcional) Si tienes un directorio public, asegúrate de que existe
 ## Si no tienes un directorio public, puedes eliminar la siguiente línea.
 #COPY --from=builder /app/public ./public
-ENV MONGO_URL=mongodb://172.17.0.5:27017/portafolio_ricardo_db
+ENV MONGO_URL=mongodb://172.17.0.2:27017/portafolio_ricardo_db
 
 # Instala solo las dependencias de producción
 RUN npm install --only=production
