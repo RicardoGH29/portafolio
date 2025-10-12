@@ -2,7 +2,6 @@
 import { Button } from "@mui/material";
 import React from "react";
 import { fetchDataPostAsync } from "@/services/fetch";
-import { toast } from "nextjs-toast-notify";
 
 const ContactSection = () => {
   const [formData, setFormData] = React.useState({
@@ -28,28 +27,13 @@ const ContactSection = () => {
           email: "",
           message: "",
         });
-        toast.success("¡La operación se realizó con éxito!", {
-          duration: 4000,
-          progress: true,
-          position: "top-right",
-          transition: "bottomToTopBounce",
-        });
+        alert("¡La operación se realizó con éxito!");
       } else {
-        toast.error("¡La operación no se pudo realizar!", {
-          duration: 4000,
-          progress: true,
-          position: "top-right",
-          transition: "bottomToTopBounce",
-        });
+        alert("¡La operación no se pudo realizar!");
       }
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
     } catch (error) {
-      toast.error("¡La operación no se pudo realizar!", {
-        duration: 4000,
-        progress: true,
-        position: "top-right",
-        transition: "bottomToTopBounce",
-      });
+      alert("¡La operación no se pudo realizar!");
     }
   }
   return (
