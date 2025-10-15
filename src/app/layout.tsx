@@ -1,14 +1,9 @@
 import "./globals.css";
-import "nextjs-toast-notify/dist/nextjs-toast-notify.css";
 import React from "react";
 
-// export const metadata = {
-//   title: "Ricardo Gonzalez Hernandez",
-//   description: "Desarrollador Web Full Stack",
-// };
 export const metadata = {
-    title: "test2",
-    description: "test",
+    title: "Ricardo Gonzalez Hernandez - Desarrollador Full Stack",
+    description: "Portafolio profesional de Ricardo Gonzalez Hernandez, desarrollador web Full Stack especializado en Next.js, React, Node.js y bases de datos.",
 }
 
 export default function RootLayout({
