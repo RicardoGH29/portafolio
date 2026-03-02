@@ -1,23 +1,44 @@
-export interface SkillCategory {
-  category: string;
-  skills: string[];
-}
+import { SkillCategory } from '@/types';
 
 export const skills: SkillCategory[] = [
   {
-    category: "Frontend",
-    skills: ["React", "Next.js", "TypeScript", "JavaScript", "HTML5", "CSS3", "Tailwind CSS", "Material-UI"],
+    category: 'Frontend',
+    icon: '🎨',
+    skills: ['React', 'Next.js 14+', 'TypeScript', 'JavaScript ES6+', 'TailwindCSS', 'Material-UI', 'shadcn/ui', 'React Native', 'Redux', 'Zustand', 'Context API'],
   },
   {
-    category: "Backend",
-    skills: ["Node.js", "Express", "MongoDB", "Mongoose", "RESTful APIs"],
+    category: 'Backend',
+    icon: '⚙️',
+    skills: ['Node.js', 'Express.js', 'Python', 'Flask', 'FastAPI', 'REST APIs', 'GraphQL', 'WebSockets', 'Socket.io'],
   },
   {
-    category: "Herramientas",
-    skills: ["Git", "GitHub", "Docker", "npm", "VS Code"],
+    category: 'Bases de Datos',
+    icon: '🗄️',
+    skills: ['MongoDB', 'Mongoose', 'Firebase Firestore', 'PostgreSQL', 'Google Cloud SQL', 'Supabase'],
   },
   {
-    category: "Otros",
-    skills: ["CI/CD", "Jenkins", "Responsive Design", "Web Performance"],
+    category: 'Inteligencia Artificial',
+    icon: '🧠',
+    skills: ['OpenAI API (GPT-4)', 'LangChain', 'RAG', 'NLP', 'scikit-learn', 'pandas', 'numpy', 'Vector Databases', 'Embeddings'],
+  },
+  {
+    category: 'Automatización',
+    icon: '⚡',
+    skills: ['n8n', 'Scrapy', 'BeautifulSoup', 'Selenium', 'Puppeteer', 'Playwright'],
+  },
+  {
+    category: 'Chatbots & Voice AI',
+    icon: '🤖',
+    skills: ['Chatbots Conversacionales', 'Voice AI', 'WhatsApp Business API', 'Telegram Bots', 'Discord Bots'],
+  },
+  {
+    category: 'DevOps & Cloud',
+    icon: '☁️',
+    skills: ['Docker', 'Docker Compose', 'Google Cloud Platform', 'GitHub Actions', 'Vercel', 'Railway', 'Render'],
+  },
+  {
+    category: 'Herramientas',
+    icon: '🛠️',
+    skills: ['Git', 'GitHub', 'Postman', 'VS Code', 'Figma', 'Thunder Client'],
   },
 ];
